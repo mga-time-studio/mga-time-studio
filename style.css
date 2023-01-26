@@ -1,0 +1,69 @@
+nav {
+  margin: 27px auto 0;
+  position: relative;
+  width: 330px;
+  height: 50px;
+  background-color:red;
+  border-radius: 1px solid black;
+  box-shadow: 3px 3px 6px black;
+  top: -10px;
+}
+nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  cursor: pointer;
+}
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+}
+a:nth-child(1) {
+  width: 100px;
+}
+a:nth-child(2) {
+  width: 110px;
+}
+
+nav .start-home, a:nth-child(1):hover ~ .animation {
+  width: 100px;
+  left: 0;
+  background-color: blue;
+}
+nav .start-home, a:nth-child(2):hover ~ .animation {
+  width: 100px;
+  left: 100px;
+  background-color: blue;
+}
+body {
+  font-size: 12px;
+  font-family: sans-serif;
+  background: rebeccapurple;
+  text-shadow: 6px 3px 3px black;
+}
+button {
+  box-shadow: 5px 5px 10px black;
+  margin: 27px auto 0;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  border-radius: 10px solid black;
+}
+img {
+  box-shadow: 5px 5px 10px black;
+}
+hr {
+ box-shadow: 5px 5px 10px black; 
+}
