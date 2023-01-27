@@ -4,7 +4,7 @@ nav {
   width: 330px;
   height: 50px;
   background-color:red;
-  border-radius: 1px solid black;
+  border-radius: 5%;
   box-shadow: 3px 3px 6px black;
   top: -10px;
   border: 5px gray ridge;
@@ -61,12 +61,13 @@ button {
   width: 150px;
   height: 50px;
   background-color: black;
-  border-radius: 10px solid black;
+  border-radius: 20%;
   border: 5px red inset;
 }
 
 img {
   box-shadow: 5px 5px 10px black;
+  border-radius: 5%;
 
 }
 hr {
@@ -77,6 +78,7 @@ input {
   box-shadow: 5px 5px 10px black;
   position: relative;
   width: 300px;
+  border-radius: 5%;
 }
 h1 {
   font-family: impact;
