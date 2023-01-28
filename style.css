@@ -50,9 +50,10 @@ nav .start-home, a:nth-child(2):hover ~ .animation {
 body {
   font-size: 12px;
   font-family: sans-serif;
-  background: rebeccapurple;
+  background: linear-gradient(45deg,#2980B9, #6DD5FA, #FFFFFF);
+  background-size: 400% 400%;
   text-shadow: 6px 3px 3px black;
- 
+  animation: gradient 10s ease infinite;
 }
 button {
   box-shadow: 5px 5px 10px black;
@@ -63,6 +64,7 @@ button {
   background-color: black;
   border-radius: 10%;
   border: 5px red inset;
+  font-family: 'Anton', sans-serif;
 }
 
 img {
@@ -83,4 +85,15 @@ input {
 h1 {
   font-family: impact;
   text-transform: uppercase;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
