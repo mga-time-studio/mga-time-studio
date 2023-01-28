@@ -50,10 +50,12 @@ nav .start-home, a:nth-child(2):hover ~ .animation {
 body {
   font-size: 12px;
   font-family: sans-serif;
-  background: linear-gradient(45deg,#2980B9, #6DD5FA, #FFFFFF);
-  background-size: 400% 400%;
+  background: linear-gradient(45deg,#0099f7, #f11712);
+  background-size: 300% 300%;
   text-shadow: 2px 3px 3px black;
   animation: gradient 10s ease infinite;
+  
+  
 }
 button {
   box-shadow: 5px 5px 10px black;
