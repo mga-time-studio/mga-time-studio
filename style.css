@@ -89,11 +89,11 @@ input {
 }
 h1 {
   font-family: impact;
-    font-family: monospace;
+    font-family: serif;
 }
 h2 {
   font-family: impact;
-  font-family: monospace; 
+  font-family: Arial, monospace; 
 }
 h2 {
   font-family: impact;
@@ -115,15 +115,14 @@ p {
   }
 }
 h3 {
-  background: linear-gradient(45deg,#1e9600, black, #ff0000);
-  border-radius: 3%;
+  background: linear-gradient(45deg,#1e9600, #45a247, #ff0000);
+  border-radius: 5%;
   margin: 50px;
-  height: 50px;
+  height: 100px;
   text-align: center;
   box-shadow: 3px 3px 6px black;
   position: relative;
   top: 40px;
   color: white;
-  border: 5px gray inset;
   font-family: monospace;
 }
