@@ -1,0 +1,29 @@
+body {
+
+    background: linear-gradient( 45deg , red, orange);
+
+    height: 100%;
+}
+footer {
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    top: -20px;
+    border-radius: 10px;
+}
+hr {
+    color: black;
+}
+input {
+    height: 50px;
+    width: 500px;
+    background: linear-gradient( 45deg , blue, white);
+}
+h1 {
+    color: white;
+}
+button {
+    background: linear-gradient( 45deg , gray, black);
+    height: 50px;
+    width: 100px;
+}
